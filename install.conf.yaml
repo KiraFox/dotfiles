@@ -1,0 +1,17 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- clean:
+    - '~'
+
+- link:
+    ~/.bashrc: bashrc
+    ~/.dircolors: dircolors
+    ~/.gitconfig: gitconfig
+    ~/.vimrc: vimrc
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [cp -f minttyrc /mnt/c/Users/Kitty/AppData/Roaming/wsltty/config, WSLtty]

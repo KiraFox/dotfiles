@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Environment variables
+export PATH=$HOME/go/bin:$PATH

@@ -100,6 +100,9 @@ set smartindent
 "Backspace & Cursor Keys wrap to next/prev lines
 set whichwrap+=<,>,h,l
 
+" Enable mouse
+set mouse=a
+
 " Mappings
 
 " Page Down & Page Up
